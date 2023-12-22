@@ -1,0 +1,10 @@
+account_id;campaign_id;campaign_name;adgroup_name;status;adgroup_id;add_result;fail_reason
+333        ;33333;Game              ;Age of Empires         ; ; ; ; 
+111        ;22222;new emply         ;Fresh fruit            ; ; ; ; 
+111        ;33333;Food              ;fruit                  ;processed; ;fail;Exist in database
+111        ;11111;creative ads      ;Logitech keyboard      ;processed; ;fail;Exist in file except
+222        ;44444;PC and gaming gear;Logitech keyboard
+Sold; ; ; ; 
+222        ;44444;PC and gaming gear;Logitech keyboard
+Sold;processed; ;fail;Duplicate Value
+222        ;44444;PC and gaming gear;Logitech keyboard@     ;processed; ;fail;Invalid format
