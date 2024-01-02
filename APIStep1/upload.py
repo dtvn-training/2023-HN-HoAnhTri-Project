@@ -13,7 +13,7 @@ if os.path.exists(pentaho_test_dir):
     auth = OAuth2(
         client_id='7e3dsw60msaf5toffs1lr00177dhnvtd',
         client_secret='m9CWsjKytc4rthVonboveo9JuWzgrFk9',
-        access_token='KvoviNPDhDBLmvxHREk55KPstG3puQkS',
+        access_token='8Pb2bC4SLFUcJG8p1ETTHdxG5i8yba9X',
     )
 
     # Khởi tạo client
@@ -21,7 +21,7 @@ if os.path.exists(pentaho_test_dir):
 
     # Tạo tên file theo đúng định dạng mong muốn "Input adgp_yyyymmdd.csv"
     formatted_date = datetime.now().strftime('%Y%m%d')
-    file_name = f'Input adgp_{formatted_date}.csv'
+    file_name = f'Output adgp_{formatted_date}.csv'
 
     # Đường dẫn tới file cần tải lên (tương đối)
     file_path = os.path.join(pentaho_test_dir, 'Output', file_name)

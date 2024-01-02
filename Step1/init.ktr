@@ -513,12 +513,21 @@ function formatDate(date) {
 var todayDate = new Date();
 var targetDate=formatDate(todayDate);
 
-var build_path = ""
+var build_path = "";
 if (build_path == "") {
-	build_path = getVariable("Internal.Transformation.Filename.Directory", "");
-	build_path = build_path.replace("file:///", "");
-    build_path += ""; //back to parent JOB folder
-}</jsScript_script>
+    build_path = getVariable("Internal.Transformation.Filename.Directory", "");
+    build_path = build_path.replace("file:///", "");
+
+    // Tach duong dan thanh cac phan dua tren dau gach cheo '/'
+    var pathParts = build_path.split("/");
+    
+    // Xoa phan tu cuoi cung trong mang (thu muc hien tai)
+    pathParts.pop();
+    
+    // Gan lai cac phan de tao duong dan moi den thu muc cha
+    build_path = pathParts.join("/");
+}
+</jsScript_script>
       </jsScript>
     </jsScripts>
     <fields>

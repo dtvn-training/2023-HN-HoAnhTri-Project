@@ -1,0 +1,8 @@
+"account_id";campaign_id;"campaign_name";"adgroup_name";"status";"adgroup_id";"add_result";"fail_reason" 
+"111        ";11111;"creative ads      ";"fashion_new_collections";" ";" ";"success";" "
+"111        ";22222;"new emply         ";"sold out@              ";"processed";" ";"fail";"Invalid format"
+"111        ";33333;"Food              ";"Fresh fruit            ";" ";" ";"success";" "
+"222        ";44444;"PC and gaming gear";"Logitech keyboard      ";"processed";" ";"fail";"Exist in file except"
+"222        ";44444;"PC and gaming gear";"Logitech keyboard
+Sold";" ";" ";"";" "
+"333        ";33333;"Game              ";"Age of Empires         ";" ";" ";"success";" "
