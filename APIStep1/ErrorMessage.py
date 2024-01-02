@@ -19,7 +19,7 @@ with open(file_PIC, newline='') as slack_file:
             slack_id = row.get('Slack_id', '').strip()
 
 if slack_id:
-    webhook_url = "https://hooks.slack.com/services/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"  # Thay YOUR_WEBHOOK_URL bằng URL webhook của bạn
+    webhook_url = "https://hooks.slack.com/services/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"  # Thay YOUR_WEBHOOK_URL bằng URL webhook của bạn
     message = f"<@{slack_id}> File doesn't exist in BOX"
 
     payload = {

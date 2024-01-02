@@ -60,10 +60,10 @@ for account_id in success_counts:
     }
     print(message)
     
-    webhook_url="https://hooks.slack.com/services/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"
+    webhook_url="https://hooks.slack.com/services/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"
     response = requests.post(webhook_url, json=payload)
 
     if response.status_code == 200:
-           print(f"Thông điệp đã được gửi thành công cho account_id {account_id} đến Slack!")
+        print(f"Thông điệp đã được gửi thành công cho account_id {account_id} đến Slack!")
     else:
-          print(f"Gửi thông điệp cho account_id {account_id} đến Slack thất bại. Mã lỗi: {response.status_code}")
+        print(f"Gửi thông điệp cho account_id {account_id} đến Slack thất bại. Mã lỗi: {response.status_code}")

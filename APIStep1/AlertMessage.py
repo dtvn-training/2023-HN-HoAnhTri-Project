@@ -18,7 +18,7 @@ file_adgp = os.path.join(pentaho_test_dir, 'Output', file_name)
 file_PIC=os.path.join(pentaho_test_dir,'PICInformation','PIC_Information.csv')
 
 
-webhook_url = "https://hooks.slack.com/services/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"
+webhook_url = "https://hooks.slack.com/services/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"
 
 headers = {
     "Content-type": "application/json"
